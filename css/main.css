@@ -1,3 +1,142 @@
 /*
  * Estilos de tu proyecto
  */
+ body {
+   font-family: 'Montserrat', sans-serif;
+   margin: 0 auto;
+   overflow-x: hidden;
+ }
+ .barra1 {
+   background-color: #120A2A;
+   width: 1320px;
+   height: 130px;
+   display: inline-block;
+   /*position: fixed;*/
+ }
+ .icono {
+   width: 60px;
+   height: 45px;
+   margin-top: 40px;
+   margin-left: 50px;
+ }
+ .list1, .list2, .list3, .list4 {
+   display: inline-block;
+   margin-top: 60px;
+ }
+ .list1 {
+   margin-left: 800px;
+ }
+ .list2, .list3, .list4 {
+   margin-left: 50px;
+ }
+ .barra, .barra2 {
+   color: white;
+ }
+ .barra2 {
+   border-radius: 5px;
+   border: 1px solid white;
+   padding: 10px;
+ }
+ .barra{
+   padding-top: 10px;
+ }
+ .itemslist, .barra, .barra2 {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: normal;
+   margin-top: -50px;
+   float: left;
+ }
+ .parte1 {
+   background-image: url(../assets/images/hero.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 600px;
+   margin-top: -20px;
+ }
+ .numero {
+   background-color: white;
+   margin-left: 800px;
+   padding-bottom: 119px;
+ }
+ .titulo1 {
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 50px;
+   color: #352384;
+   margin-left: 60px;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 90px;
+ }
+ .sub1 {
+   text-transform: uppercase;
+   font-weight: normal;
+   font-size: 20px;
+   color: #352384;
+   margin-left: 60px;
+   margin-top: 5px;
+ }
+ .number {
+   width: 400px;
+   font-size: 1.5em;
+   border: none;
+   padding-right: 0;
+   padding-left: 0;
+   margin-left: 60px;
+   outline: none;
+ }
+ .linea {
+   width: 400px;
+   margin-left: 60px;
+   margin-bottom: 30px;
+ }
+ .boton {
+   background-color: #FF00BF;
+   color: white;
+   font-size: 17px;
+   font-weight: 600;
+   padding: 20px;
+   border-radius: 5px;
+   border: none;
+   margin-left: 60px;
+   cursor: pointer;
+ }
+ .ride {
+   color: #352384;
+   opacity: 0.7;
+   margin-left: 15px;
+ }
+ .ride:hover {
+   color: #FF00BF;
+ }
+ .parrafo1, .link1 {
+   font-size: 10px;
+   display: inline-block;
+   margin-top: 10px;
+ }
+ .parrafo1 {
+   color: #352384;
+   opacity: 0.7;
+   margin-left: 60px;
+ }
+ .link1 {
+   color: #FF00BF;
+   text-decoration: none;
+ }
+ .parrafo2, .link2 {
+   font-size: 10px;
+   display: inline-block;
+   margin-top: 0;
+ }
+ .parrafo2 {
+   color: #352384;
+   opacity: 0.7;
+   margin-left: 60px;
+ }
+ .link2 {
+   color: #FF00BF;
+   text-decoration: none;
+ }
