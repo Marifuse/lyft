@@ -140,3 +140,45 @@
    color: #FF00BF;
    text-decoration: none;
  }
+.parte2 {
+  background: linear-gradient(#76278F, #2B1E66);
+  padding-bottom: 90px;
+}
+.listado, .imgCelu {
+  display: inline-block;
+}
+.celu {
+  width: 600px;
+  height: 800px;
+  margin-left: 100px;
+  padding-top: 100px;
+}
+.listado {
+  width: 450px;
+  margin-left: 90px;
+}
+.concepto1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 100px;
+}
+.termino1, .termino2, .termino3 {
+  color: white;
+}
+.concepto2, .concepto3, .concepto4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+}
+.concepto3 {
+  margin-bottom: 0;
+}
+.concepto4 {
+  margin-top: 0;
+}
