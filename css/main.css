@@ -6,12 +6,13 @@
    margin: 0 auto;
    overflow-x: hidden;
  }
+ /*Barra fija*/
  .barra1 {
    background-color: #120A2A;
    width: 1320px;
    height: 130px;
    display: inline-block;
-   /*position: fixed;*/
+   position: fixed;
  }
  .icono {
    width: 60px;
@@ -32,6 +33,9 @@
  .barra, .barra2 {
    color: white;
  }
+ .barra:hover {
+   color: #FF00BF;
+ }
  .barra2 {
    border-radius: 5px;
    border: 1px solid white;
@@ -48,6 +52,7 @@
    margin-top: -50px;
    float: left;
  }
+ /*Parte donde va el gif de Lyft, más el formulario donde se pide el número de celular (input), boton, entre otros*/
  .parte1 {
    background-image: url(../assets/images/hero.gif);
    background-repeat: no-repeat;
@@ -55,6 +60,7 @@
    width: 100%;
    height: 600px;
    margin-top: -20px;
+   padding-top: 100px;
  }
  .numero {
    background-color: white;
@@ -140,22 +146,24 @@
    color: #FF00BF;
    text-decoration: none;
  }
+ /*Parte donde va la grandiente, más unos textos y la imagen del celular*/
 .parte2 {
   background: linear-gradient(#76278F, #2B1E66);
-  padding-bottom: 90px;
+  padding-bottom: 10px;
 }
 .listado, .imgCelu {
   display: inline-block;
 }
 .celu {
-  width: 600px;
-  height: 800px;
+  width: 500px;
+  height: 480px;
   margin-left: 100px;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .listado {
   width: 450px;
   margin-left: 90px;
+  margin-top: -100px;
 }
 .concepto1 {
   text-transform: uppercase;
@@ -165,7 +173,7 @@
   margin-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .termino1, .termino2, .termino3 {
   color: white;
@@ -181,4 +189,224 @@
 }
 .concepto4 {
   margin-top: 0;
+}
+.concepto1 {
+  margin-top: -600px;
+}
+/*Parte donde van parrafos, más los videos de Lyft*/
+.contenedor1 {
+  background-color: white;
+  width: 320px;
+  margin-bottom: 0;
+}
+.pequeño1 {
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+.mediano1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.parrafo3 {
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-bottom: 249px;
+  margin-bottom: 0;
+}
+.video1 iframe {
+  float: right;
+  padding: 0;
+  margin-top: -433px;
+}
+.contenedor2 {
+  background-color: white;
+  width: 320px;
+  margin-left: 940px;
+  margin-bottom: 0;
+}
+.pequeño2 {
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+.mediano2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.parrafo4 {
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-bottom: 249px;
+  margin-bottom: 0;
+}
+.video2 iframe {
+  float: left;
+  padding: 0;
+  margin-top: -433px;
+}
+.contenedor3 {
+  background-color: white;
+  width: 320px;
+  margin-bottom: 0;
+}
+.pequeño3 {
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+.mediano3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.parrafo5 {
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-bottom: 249px;
+  margin-bottom: 0;
+}
+.video3 iframe {
+  float: right;
+  padding: 0;
+  margin-top: -414px;
+}
+/*Footer donde se encapsulan los links, más logos e iconos*/
+.cierre {
+  background-color: #333447;
+  margin-top: 18px;
+  padding-bottom: 30px;
+}
+.conectar, .part, .lern, .copy {
+  color: white;
+}
+.conectar, .part, .lern, .logos {
+  display: inline-block;
+  margin-left: 120px;
+}
+.log {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 40px;
+}
+.ayuda, .sitio, .aeropuerto, .estimar {
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  display: block;
+}
+.ayuda:hover {
+  color: #FF00BF;
+}
+.sitio:hover {
+  color: #FF00BF;
+}
+.aeropuerto:hover {
+  color: #FF00BF;
+}
+.estimar:hover {
+  color: #FF00BF;
+}
+.ner {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 40px;
+}
+.ner, .ship, .empresa, .dors, .coder {
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  display: block;
+}
+.ship:hover {
+  color: #FF00BF;
+}
+.empresa:hover {
+  color: #FF00BF;
+}
+.dors:hover {
+  color: #FF00BF;
+}
+.coder:hover {
+  color: #FF00BF;
+}
+.lern {
+  margin-left: 170px;
+}
+.leer {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 40px;
+}
+.saf, .blo, .pres, .care {
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  display: block;
+}
+.saf:hover {
+  color: #FF00BF;
+}
+.blo:hover {
+  color: #FF00BF;
+}
+.pres:hover {
+  color: #FF00BF;
+}
+.care:hover {
+  color: #FF00BF;
+}
+.simbols {
+  margin-top: 100px;
+}
+.imuno, .imdos, .imtres {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
+  display: block;
+  cursor: pointer;
+}
+i {
+  color: white;
+  font-size: 23px;
+  border: 2px solid white;
+  width: 15px;
+  height: 15px;
+  border-radius:50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  padding: 15px;
+  margin-left: 5px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.fa-facebook {
+  margin-left: 480px;
+}
+/*Final donde va una linea divisoria, más el copyrigth de la página*/
+.finalLinea {
+  width: 900px;
+}
+.copy {
+  margin-left: 500px;
+  margin-top: 50px;
 }
