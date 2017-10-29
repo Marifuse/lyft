@@ -90,3 +90,59 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+***
+
+## README DE TRABAJO LYFT
+
+* **Curso:** _Creando tu primer sitio web interactivo_
+* **Unidad:** _Maquetado web con HTML & CSS_
+
+***
+
+## Especificaciones del Proyecto
+
+El proyecto venía con una base forkeable de _GITHUB_, el cual, debía ser modificado para hacer una réplica de la página original
+enlazada en este README.
+
+El contenido de la carpeta trae:
+* _UN README_
+
+* _UNA CARPETA CON IMÁGENES_
+
+* _LA CARPETA CSS (Uno de los formatos que se debía trabajar)_
+
+* _UNA CARPETA DOCS_
+
+* _UNA CARPETA FONTS_
+
+* _EL INDEX.HTML (el otro formato que se debía trabajar)_
+
+***
+
+## Ejecución de la Página
+
+Para que se pueda ejecutar el proyecto, se debieron seguir los siguientes pasos:
+
+**HTML**
+
+* Enlazar por medio de la etiqueta LINK el formato CSS al fotmato HTML, junto con la carpeta de los íconos.
+* Modificar el HTML con los textos e imágenes que venían en la carpeta forkeada (Esto se logra dividiendo en secciones cada parte de la
+página, uso de cierre o FOOTER, uso de etiquetas, forularios, usar clases, usar íconos, entre otros).
+* Enlazar igualmente al HTML los tipos de fuentes que e van a utilizr en la página (Google Fonts), también por medio de la 
+etiqueta LINK.
+
+**CSS**
+
+* Comenzar el trabajo por secciones, desde lo más general a lo más particular para darle estilos (Modificación de las fuentes, tamaños
+de imágenes y letras, colores de fondo y de letras, dar colores y formas a los íconos, dar estilo a los input y buttons, entre otros).
+* Llamar por clases Padre o Hijo en caso de ser necesario para no generar conflictos.
+* Dejar comentarios separando las secciones que se están trabajando.
+
+***
+
+## Limitaciones y dificultades
+
+* Falta de llamado a las clases en algunas etiquetas, los cuales, generaron inconvenientes en la HOJA DE ESTILOS.
+* No se pudo generar la otra barra blanca, ya que para eso se necesita funciones JS.
+* Esta página es sólo un trabajo replica, el cual, no tiene funciones JS (Maquetado).
