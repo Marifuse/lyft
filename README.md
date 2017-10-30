@@ -143,6 +143,8 @@ de imágenes y letras, colores de fondo y de letras, dar colores y formas a los 
 
 ## Limitaciones y dificultades
 
-* Falta de llamado a las clases en algunas etiquetas, los cuales, generaron inconvenientes en la HOJA DE ESTILOS.
+* Falta de llamado a las clases en algunas etiquetas, los cuales, generaron inconvenientes en la HOJA DE ESTILOS puesto que cambiaba a
+nivel general y no particular.
+* La lentitud de carga por los videos.
 * No se pudo generar la otra barra blanca, ya que para eso se necesita funciones JS.
 * Esta página es sólo un trabajo replica, el cual, no tiene funciones JS (Maquetado).
